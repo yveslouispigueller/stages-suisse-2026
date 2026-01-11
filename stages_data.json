@@ -1,0 +1,311 @@
+{
+  "derniere_maj": "11 janvier 2026 - 10:00",
+  "stages": [
+    {
+      "company": "UBS",
+      "title": "Investment Banking Analyst Program",
+      "domain": "Investment Banking",
+      "location": "Zurich",
+      "duration": "12 mois",
+      "startDate": "Août 2026",
+      "link": "https://jobs.ubs.com"
+    },
+    {
+      "company": "PwC Switzerland",
+      "title": "Assurance Audit Trainee - Financial Services",
+      "domain": "Finance",
+      "location": "Zurich/Geneva/Basel",
+      "duration": "6 mois",
+      "startDate": "Variable",
+      "link": "https://www.pwc.ch/careers"
+    },
+    {
+      "company": "EY Switzerland",
+      "title": "Audit Trainee - Banking & Capital Markets",
+      "domain": "Finance",
+      "location": "Zurich/Geneva",
+      "duration": "6 mois",
+      "startDate": "Variable",
+      "link": "https://www.ey.com/ch/careers"
+    },
+    {
+      "company": "Credit Suisse",
+      "title": "Graduate Finance & Risk Program",
+      "domain": "Risk Management",
+      "location": "Zurich",
+      "duration": "12 mois",
+      "startDate": "2026",
+      "link": "https://www.credit-suisse.com/careers"
+    },
+    {
+      "company": "Julius Baer",
+      "title": "Investment & Wealth Management Trainee",
+      "domain": "Finance",
+      "location": "Zurich/Geneva",
+      "duration": "12 mois",
+      "startDate": "Variable",
+      "link": "https://www.juliusbaer.com/careers"
+    },
+    {
+      "company": "CA Indosuez Wealth Management",
+      "title": "Analyste Financier (Stage de longue durée)",
+      "domain": "Finance",
+      "location": "Genève",
+      "duration": "6 mois",
+      "startDate": "Variable",
+      "link": "https://www.ca-indosuez.com/careers"
+    },
+    {
+      "company": "Lombard Odier",
+      "title": "Graduate Program - Investment Solutions",
+      "domain": "Finance",
+      "location": "Geneva",
+      "duration": "12 mois",
+      "startDate": "Variable",
+      "link": "https://www.lombardodier.com/careers"
+    },
+    {
+      "company": "Pictet Group",
+      "title": "Analyst Program - Wealth Management",
+      "domain": "Finance",
+      "location": "Geneva",
+      "duration": "12 mois",
+      "startDate": "Variable",
+      "link": "https://www.group.pictet/careers"
+    },
+    {
+      "company": "Vontobel",
+      "title": "Graduate Investment Banking",
+      "domain": "Investment Banking",
+      "location": "Zurich",
+      "duration": "12 mois",
+      "startDate": "Variable",
+      "link": "https://www.vontobel.com/careers"
+    },
+    {
+      "company": "Swiss Re",
+      "title": "Finance Trainee Program",
+      "domain": "Finance",
+      "location": "Zurich",
+      "duration": "12 mois",
+      "startDate": "Variable",
+      "link": "https://www.swissre.com/careers"
+    },
+    {
+      "company": "Zurich Insurance",
+      "title": "Trainee International Insurance – Financial Lines",
+      "domain": "Finance",
+      "location": "Glattbrugg",
+      "duration": "12 mois",
+      "startDate": "2026",
+      "link": "https://www.zurich.com/careers"
+    },
+    {
+      "company": "LafargeHolcim",
+      "title": "Finance Graduate Program",
+      "domain": "Finance",
+      "location": "Zug",
+      "duration": "12 mois",
+      "startDate": "Variable",
+      "link": "https://www.holcim.com/careers"
+    },
+    {
+      "company": "ABB",
+      "title": "Global Finance Trainee Program",
+      "domain": "Finance",
+      "location": "Baden",
+      "duration": "12 mois",
+      "startDate": "Variable",
+      "link": "https://www.abb.com/careers"
+    },
+    {
+      "company": "Nestlé",
+      "title": "Finance & Control Internship",
+      "domain": "Finance",
+      "location": "Vevey",
+      "duration": "6-12 mois",
+      "startDate": "Variable",
+      "link": "https://www.nestle.com/careers"
+    },
+    {
+      "company": "Nestlé Waters (Suisse) SA",
+      "title": "Stagiaire 3+1 ou Stagiaire pré-HES",
+      "domain": "Finance",
+      "location": "Henniez",
+      "duration": "6-12 mois",
+      "startDate": "Variable",
+      "link": "https://www.nestle.ch/careers"
+    },
+    {
+      "company": "Novartis",
+      "title": "Finance Internship Program - 12 months",
+      "domain": "Finance",
+      "location": "Kaiseraugst/Basel",
+      "duration": "12 mois",
+      "startDate": "Variable",
+      "link": "https://www.novartis.com/careers"
+    },
+    {
+      "company": "Roche",
+      "title": "Trainee Finance",
+      "domain": "Finance",
+      "location": "Basel",
+      "duration": "6-12 mois",
+      "startDate": "Variable",
+      "link": "https://www.roche.com/careers"
+    },
+    {
+      "company": "Syngenta",
+      "title": "Finance Graduate Program",
+      "domain": "Finance",
+      "location": "Basel",
+      "duration": "12 mois",
+      "startDate": "Variable",
+      "link": "https://www.syngenta.com/careers"
+    },
+    {
+      "company": "Glencore",
+      "title": "Finance & Treasury Graduate",
+      "domain": "Finance",
+      "location": "Baar",
+      "duration": "12 mois",
+      "startDate": "Variable",
+      "link": "https://www.glencore.com/careers"
+    },
+    {
+      "company": "Richemont",
+      "title": "Finance Trainee - Luxury Goods",
+      "domain": "Finance",
+      "location": "Geneva",
+      "duration": "12 mois",
+      "startDate": "Variable",
+      "link": "https://www.richemont.com/careers"
+    },
+    {
+      "company": "Swatch Group",
+      "title": "Financial Analyst Internship",
+      "domain": "Finance",
+      "location": "Biel/Bienne",
+      "duration": "6-12 mois",
+      "startDate": "Variable",
+      "link": "https://www.swatchgroup.com/careers"
+    },
+    {
+      "company": "Holcim (Schweiz) AG",
+      "title": "Stagiaire Finance (H/F) à 100%",
+      "domain": "Finance",
+      "location": "St-Prex/Morges",
+      "duration": "6 mois",
+      "startDate": "Variable",
+      "link": "https://www.ehc.vd.ch/carrieres"
+    },
+    {
+      "company": "TotalEnergies",
+      "title": "TotalEnergies Trading Graduate Program",
+      "domain": "Finance",
+      "location": "Geneva",
+      "duration": "12 mois",
+      "startDate": "2026",
+      "link": "https://www.linkedin.com/jobs/"
+    },
+    {
+      "company": "VZ VermögensZentrum",
+      "title": "Stage Conseil à la clientèle privée (au moins 6 mois)",
+      "domain": "Finance",
+      "location": "Lausanne",
+      "duration": "6 mois",
+      "startDate": "Immédiat",
+      "link": "https://www.vzch.com/careers"
+    },
+    {
+      "company": "Banque Cantonale Vaudoise",
+      "title": "Apprenties ou apprentis de commerce Banque - août 2026",
+      "domain": "Finance",
+      "location": "Prilly",
+      "duration": "12 mois",
+      "startDate": "Août 2026",
+      "link": "https://www.bcv.ch/careers"
+    },
+    {
+      "company": "IATA (International Air Transport Association)",
+      "title": "Student Internship in Finance and Treasury Operations",
+      "domain": "Finance",
+      "location": "Geneva",
+      "duration": "12 mois",
+      "startDate": "Mars 2026",
+      "link": "https://www.iata.org/careers"
+    },
+    {
+      "company": "Conextivity Group SA",
+      "title": "Stagiaire MPEC 3+1 Finance",
+      "domain": "Finance",
+      "location": "St-Prex",
+      "duration": "6 mois",
+      "startDate": "Variable",
+      "link": "https://www.conextivity.com"
+    },
+    {
+      "company": "Babilou Switzerland SA",
+      "title": "Stagiaire Finance (H/F) à 100%",
+      "domain": "Finance",
+      "location": "St-Prex",
+      "duration": "6 mois",
+      "startDate": "Variable",
+      "link": "https://www.babilou.ch"
+    },
+    {
+      "company": "Cap Canaille SA",
+      "title": "Stagiaire Finance (H/F) à 100%",
+      "domain": "Finance",
+      "location": "St-Prex",
+      "duration": "6 mois",
+      "startDate": "Variable",
+      "link": "https://www.jobs.ch"
+    },
+    {
+      "company": "KPMG",
+      "title": "Audit Trainee - Financial Services",
+      "domain": "Finance",
+      "location": "Zurich/Geneva",
+      "duration": "6 mois",
+      "startDate": "Variable",
+      "link": "https://www.kpmg.ch/careers"
+    },
+    {
+      "company": "Deloitte",
+      "title": "Audit & Assurance Internship",
+      "domain": "Finance",
+      "location": "Zurich/Geneva/Lausanne",
+      "duration": "6 mois",
+      "startDate": "Variable",
+      "link": "https://www.deloitte.com/ch/careers"
+    },
+    {
+      "company": "Credit Suisse (UBS)",
+      "title": "Graduate Program - Finance & Risk",
+      "domain": "Finance",
+      "location": "Zurich",
+      "duration": "12 mois",
+      "startDate": "2026",
+      "link": "https://jobs.ubs.com"
+    },
+    {
+      "company": "CA Indosuez Wealth Management",
+      "title": "Analyste & Coordinateur IT – Domaine Crédit & Risque",
+      "domain": "Analytics",
+      "location": "Genève",
+      "duration": "6 mois",
+      "startDate": "Variable",
+      "link": "https://www.ca-indosuez.com/careers"
+    },
+    {
+      "company": "Partners Group",
+      "title": "Investment Analyst Programme",
+      "domain": "Finance",
+      "location": "Zug",
+      "duration": "12 mois",
+      "startDate": "Variable",
+      "link": "https://www.partnersgroup.com/careers"
+    }
+  ]
+}
