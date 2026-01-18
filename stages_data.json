@@ -1,311 +1,374 @@
-{
-  "derniere_maj": "11 janvier 2026 - 10:00",
-  "stages": [
+<!DOCTYPE html>
+
+<html lang="en" style="height: 100%">
+    <head>
+        
+            <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHJF51F24N"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-DHJF51F24N');
+            </script>
+        
+
+        <meta charset="utf-8">
+        <title>stages_data.json : /home/pigueller/stages_data.json : Editor : pigueller : PythonAnywhere</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="stages_data.json : /home/pigueller/stages_data.json : Editor : pigueller : PythonAnywhere">
+        <meta name="author" content="PythonAnywhere LLP">
+        <meta name="google-site-verification" content="O4UxDrfcHjC44jybs2vajc1GgRkTKCTRgVzeV6I9V14" />
+
+
+        <!-- Le styles -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" />
+
+        <link rel="stylesheet" href="/static/CACHE/css/output.562ba3d8506e.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="/static/CACHE/css/output.b9a4961a16f7.css" type="text/css"><link rel="stylesheet" href="/static/CACHE/css/output.f57ced50762a.css" type="text/css" media="screen">
+
+        <!-- Le javascript -->
+        <script type="text/javascript">
+            var Anywhere = {};
+            Anywhere.urls = {};
+            Anywhere.csrfToken = "QWmlAsctvRzea1F0p3poHO6acW766YTiedlB8D6SMvBBPwcgCoREWuNR8CuKyrgP";
+        </script>
+        <script src="/static/CACHE/js/output.b336be555fe1.js"></script>
+        
+
+        <script src="/static/CACHE/js/output.d5f4ec83cdc0.js"></script>
+        
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $.extend(Anywhere.urls, {
+          file: "/user/pigueller/files/home/pigueller/stages_data.json",
+          check_hash: "/user/pigueller/files/home/pigueller/stages_data.json",
+          update_editor_mode_preference: "/user/pigueller/account/update_editor_mode_preference",
+          console_api: "/api/v0/user/pigueller/consoles/",
+        });
+        var filename = "/home/pigueller/stages_data.json";
+        var hash = "ec0085de47bac8fd1dc69d91b1a9e428";
+        var interpreter = "None";
+
+        
+            Anywhere.Editor.InitializeAce(ace, Anywhere.urls, filename, hash, interpreter, "pythonanywhere.com");
+            $("#id_keybinding_mode_select").val("normal");
+            $("#id_keybinding_mode_select").trigger("change");
+        
+        var consoleVisible = false;
+        Anywhere.Editor.splitPanes(consoleVisible);
+
+        Anywhere.WebAppControl.initialize();
+        Anywhere2.initializeFileSharingOptions(
+          $('#id_file_sharing_options')[0],
+          {
+            url: "/api/v0/user/pigueller/files/sharing/",
+            csrfToken: "QWmlAsctvRzea1F0p3poHO6acW766YTiedlB8D6SMvBBPwcgCoREWuNR8CuKyrgP",
+            path: "/home/pigueller/stages_data.json"
+          }
+        );
+
+      });
+    </script>
+
+        
+
+    </head>
+
+    <body style="height:100%;">
+       <div style="min-height: 100%; position: relative;">
+        
+        
+  
+
+
+
+
+  <nav class="navbar navbar-default fullscreen-main-navbar">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">
+        <img id="id_logo" src="/static/anywhere/images/PA-logo-snake-only.svg" height="100%" />
+      </a>
+    </div>
+
+    <div class="extra-nav-content">
+      
+
+  <div id="id_editor_toolbar">
+
+    <div class="pull-left">
+      <span id="id_breadcrumbs_div"><a class="breadcrumbs_link breadcrumb_entry" href="/user/pigueller/files/" target="_parent">/</a><a class="breadcrumbs_link breadcrumb_entry" href="/user/pigueller/files/home" target="_parent">home</a><span class="breadcrumb_entry">/</span><a class="breadcrumbs_link breadcrumb_entry" href="/user/pigueller/files/home/pigueller" target="_parent">pigueller</a><span class="breadcrumb_entry">/</span><wbr><span class="breadcrumb_entry breadcrumb_terminal">stages_data.json</span></span>
+
+      <span>
+        <span id="id_unsaved_changes_spacer">
+          <span id="id_unsaved_changes" class="pa_hidden muted">(unsaved changes)</span>
+        </span>
+      </span>
+    </div>
+
+    <div id="id_editor_messages" class="pull-left">
+      
+
+    </div>
+
+    <div class="pull-right">
+      <div id="id_editor_buttons_right" class="form-inline">
+        <span id="id_save_error" class="pa_hidden alert alert-danger">Error saving.</span>
+        <img src="/static/anywhere/images/spinner-small.gif" class="pa_hidden" id="id_save_spinner" />
+        
+          <span id="id_keyboard_shortcuts"><a href="#">Keyboard shortcuts:</a></span>
+          <select id="id_keybinding_mode_select" class="form-control input-sm">
+            <option value="normal">Normal</option>
+            <option value="vim">Vim</option>
+          </select>
+        
+        <button id="id_display_sharing_options" class="btn btn-default" data-toggle="modal" data-target="#id_file_sharing_modal" title="Get a URL to share this file">
+          <span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
+          Share
+        </button>
+        
+          <button id="id_save" class="btn btn-success" title="Save (Ctrl + S)">
+            <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>
+            Save
+          </button>
+          <button id="id_save_as" class="btn btn-default" title="Save As">Save as...</button>
+        
+        
+
+        
+      </div>
+    </div>
+
+  </div>
+
+
+    </div>
+
+    <div class="dropdown fullscreen-hamburger fullscreen-mini-nav">
+      <button type="button" class="navbar-toggle" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <ul class="dropdown-menu pull-right">
+        
+  <li class=""><a id="id_dashboard_link" href="/user/pigueller/">Dashboard</a></li>
+  <li class=""><a id="id_consoles_link" href="/user/pigueller/consoles/">Consoles</a></li>
+  <li class=""><a id="id_files_link" href="/user/pigueller/files/home/pigueller">Files</a></li>
+  <li class=""><a id="id_web_app_link" href="/user/pigueller/webapps/">Web</a></li>
+  <li class=""><a id="id_tasks_link" href="/user/pigueller/tasks_tab/">Tasks</a></li>
+  <li class=""><a id="id_databases_link" href="/user/pigueller/databases/">Databases</a></li>
+
+
+        
+<li class="">
+        <a href="" data-testid="contact_support_link" target="_parent" class="feedback_link">
+                
+                Contact Support
+                
+        </a>
+</li>
+
+
+<li class=""><a href="/forums/" target="_parent" class="forums_link">Forums</a></li>
+<li class=""><a href="https://help.pythonanywhere.com/" target="_parent" class="help_link">Help</a>
+</li>
+<li class=""><a href="https://blog.pythonanywhere.com/" target="_parent" class="blog_link">Blog</a>
+</li>
+
+
+<li class=""><a href="/user/pigueller/account/" target="_parent"
+                class="account_link">Account</a></li>
+<li class="">
+        <form action="/logout/" method="POST" target="_parent">
+                <input type="hidden" name="csrfmiddlewaretoken" value="QWmlAsctvRzea1F0p3poHO6acW766YTiedlB8D6SMvBBPwcgCoREWuNR8CuKyrgP">
+                <button type="submit" class="btn-link logout_link">Log out</button>
+        </form>
+</li>
+
+      </ul>
+    </div>
+
+  </nav>
+
+
+
+        
+    
+
+
+        
+  <div>
+    <div id="id_ide_split_panes">
+
+      
+        <div id="id_editor">{
+  &quot;derniere_maj&quot;: &quot;18 January 2026 - 15:52&quot;,
+  &quot;stages&quot;: [
     {
-      "company": "UBS",
-      "title": "Investment Banking Analyst Program",
-      "domain": "Investment Banking",
-      "location": "Zurich",
-      "duration": "12 mois",
-      "startDate": "Août 2026",
-      "link": "https://jobs.ubs.com"
-    },
-    {
-      "company": "PwC Switzerland",
-      "title": "Assurance Audit Trainee - Financial Services",
-      "domain": "Finance",
-      "location": "Zurich/Geneva/Basel",
-      "duration": "6 mois",
-      "startDate": "Variable",
-      "link": "https://www.pwc.ch/careers"
-    },
-    {
-      "company": "EY Switzerland",
-      "title": "Audit Trainee - Banking & Capital Markets",
-      "domain": "Finance",
-      "location": "Zurich/Geneva",
-      "duration": "6 mois",
-      "startDate": "Variable",
-      "link": "https://www.ey.com/ch/careers"
-    },
-    {
-      "company": "Credit Suisse",
-      "title": "Graduate Finance & Risk Program",
-      "domain": "Risk Management",
-      "location": "Zurich",
-      "duration": "12 mois",
-      "startDate": "2026",
-      "link": "https://www.credit-suisse.com/careers"
-    },
-    {
-      "company": "Julius Baer",
-      "title": "Investment & Wealth Management Trainee",
-      "domain": "Finance",
-      "location": "Zurich/Geneva",
-      "duration": "12 mois",
-      "startDate": "Variable",
-      "link": "https://www.juliusbaer.com/careers"
-    },
-    {
-      "company": "CA Indosuez Wealth Management",
-      "title": "Analyste Financier (Stage de longue durée)",
-      "domain": "Finance",
-      "location": "Genève",
-      "duration": "6 mois",
-      "startDate": "Variable",
-      "link": "https://www.ca-indosuez.com/careers"
-    },
-    {
-      "company": "Lombard Odier",
-      "title": "Graduate Program - Investment Solutions",
-      "domain": "Finance",
-      "location": "Geneva",
-      "duration": "12 mois",
-      "startDate": "Variable",
-      "link": "https://www.lombardodier.com/careers"
-    },
-    {
-      "company": "Pictet Group",
-      "title": "Analyst Program - Wealth Management",
-      "domain": "Finance",
-      "location": "Geneva",
-      "duration": "12 mois",
-      "startDate": "Variable",
-      "link": "https://www.group.pictet/careers"
-    },
-    {
-      "company": "Vontobel",
-      "title": "Graduate Investment Banking",
-      "domain": "Investment Banking",
-      "location": "Zurich",
-      "duration": "12 mois",
-      "startDate": "Variable",
-      "link": "https://www.vontobel.com/careers"
-    },
-    {
-      "company": "Swiss Re",
-      "title": "Finance Trainee Program",
-      "domain": "Finance",
-      "location": "Zurich",
-      "duration": "12 mois",
-      "startDate": "Variable",
-      "link": "https://www.swissre.com/careers"
-    },
-    {
-      "company": "Zurich Insurance",
-      "title": "Trainee International Insurance – Financial Lines",
-      "domain": "Finance",
-      "location": "Glattbrugg",
-      "duration": "12 mois",
-      "startDate": "2026",
-      "link": "https://www.zurich.com/careers"
-    },
-    {
-      "company": "LafargeHolcim",
-      "title": "Finance Graduate Program",
-      "domain": "Finance",
-      "location": "Zug",
-      "duration": "12 mois",
-      "startDate": "Variable",
-      "link": "https://www.holcim.com/careers"
-    },
-    {
-      "company": "ABB",
-      "title": "Global Finance Trainee Program",
-      "domain": "Finance",
-      "location": "Baden",
-      "duration": "12 mois",
-      "startDate": "Variable",
-      "link": "https://www.abb.com/careers"
-    },
-    {
-      "company": "Nestlé",
-      "title": "Finance & Control Internship",
-      "domain": "Finance",
-      "location": "Vevey",
-      "duration": "6-12 mois",
-      "startDate": "Variable",
-      "link": "https://www.nestle.com/careers"
-    },
-    {
-      "company": "Nestlé Waters (Suisse) SA",
-      "title": "Stagiaire 3+1 ou Stagiaire pré-HES",
-      "domain": "Finance",
-      "location": "Henniez",
-      "duration": "6-12 mois",
-      "startDate": "Variable",
-      "link": "https://www.nestle.ch/careers"
-    },
-    {
-      "company": "Novartis",
-      "title": "Finance Internship Program - 12 months",
-      "domain": "Finance",
-      "location": "Kaiseraugst/Basel",
-      "duration": "12 mois",
-      "startDate": "Variable",
-      "link": "https://www.novartis.com/careers"
-    },
-    {
-      "company": "Roche",
-      "title": "Trainee Finance",
-      "domain": "Finance",
-      "location": "Basel",
-      "duration": "6-12 mois",
-      "startDate": "Variable",
-      "link": "https://www.roche.com/careers"
-    },
-    {
-      "company": "Syngenta",
-      "title": "Finance Graduate Program",
-      "domain": "Finance",
-      "location": "Basel",
-      "duration": "12 mois",
-      "startDate": "Variable",
-      "link": "https://www.syngenta.com/careers"
-    },
-    {
-      "company": "Glencore",
-      "title": "Finance & Treasury Graduate",
-      "domain": "Finance",
-      "location": "Baar",
-      "duration": "12 mois",
-      "startDate": "Variable",
-      "link": "https://www.glencore.com/careers"
-    },
-    {
-      "company": "Richemont",
-      "title": "Finance Trainee - Luxury Goods",
-      "domain": "Finance",
-      "location": "Geneva",
-      "duration": "12 mois",
-      "startDate": "Variable",
-      "link": "https://www.richemont.com/careers"
-    },
-    {
-      "company": "Swatch Group",
-      "title": "Financial Analyst Internship",
-      "domain": "Finance",
-      "location": "Biel/Bienne",
-      "duration": "6-12 mois",
-      "startDate": "Variable",
-      "link": "https://www.swatchgroup.com/careers"
-    },
-    {
-      "company": "Holcim (Schweiz) AG",
-      "title": "Stagiaire Finance (H/F) à 100%",
-      "domain": "Finance",
-      "location": "St-Prex/Morges",
-      "duration": "6 mois",
-      "startDate": "Variable",
-      "link": "https://www.ehc.vd.ch/carrieres"
-    },
-    {
-      "company": "TotalEnergies",
-      "title": "TotalEnergies Trading Graduate Program",
-      "domain": "Finance",
-      "location": "Geneva",
-      "duration": "12 mois",
-      "startDate": "2026",
-      "link": "https://www.linkedin.com/jobs/"
-    },
-    {
-      "company": "VZ VermögensZentrum",
-      "title": "Stage Conseil à la clientèle privée (au moins 6 mois)",
-      "domain": "Finance",
-      "location": "Lausanne",
-      "duration": "6 mois",
-      "startDate": "Immédiat",
-      "link": "https://www.vzch.com/careers"
-    },
-    {
-      "company": "Banque Cantonale Vaudoise",
-      "title": "Apprenties ou apprentis de commerce Banque - août 2026",
-      "domain": "Finance",
-      "location": "Prilly",
-      "duration": "12 mois",
-      "startDate": "Août 2026",
-      "link": "https://www.bcv.ch/careers"
-    },
-    {
-      "company": "IATA (International Air Transport Association)",
-      "title": "Student Internship in Finance and Treasury Operations",
-      "domain": "Finance",
-      "location": "Geneva",
-      "duration": "12 mois",
-      "startDate": "Mars 2026",
-      "link": "https://www.iata.org/careers"
-    },
-    {
-      "company": "Conextivity Group SA",
-      "title": "Stagiaire MPEC 3+1 Finance",
-      "domain": "Finance",
-      "location": "St-Prex",
-      "duration": "6 mois",
-      "startDate": "Variable",
-      "link": "https://www.conextivity.com"
-    },
-    {
-      "company": "Babilou Switzerland SA",
-      "title": "Stagiaire Finance (H/F) à 100%",
-      "domain": "Finance",
-      "location": "St-Prex",
-      "duration": "6 mois",
-      "startDate": "Variable",
-      "link": "https://www.babilou.ch"
-    },
-    {
-      "company": "Cap Canaille SA",
-      "title": "Stagiaire Finance (H/F) à 100%",
-      "domain": "Finance",
-      "location": "St-Prex",
-      "duration": "6 mois",
-      "startDate": "Variable",
-      "link": "https://www.jobs.ch"
-    },
-    {
-      "company": "KPMG",
-      "title": "Audit Trainee - Financial Services",
-      "domain": "Finance",
-      "location": "Zurich/Geneva",
-      "duration": "6 mois",
-      "startDate": "Variable",
-      "link": "https://www.kpmg.ch/careers"
-    },
-    {
-      "company": "Deloitte",
-      "title": "Audit & Assurance Internship",
-      "domain": "Finance",
-      "location": "Zurich/Geneva/Lausanne",
-      "duration": "6 mois",
-      "startDate": "Variable",
-      "link": "https://www.deloitte.com/ch/careers"
-    },
-    {
-      "company": "Credit Suisse (UBS)",
-      "title": "Graduate Program - Finance & Risk",
-      "domain": "Finance",
-      "location": "Zurich",
-      "duration": "12 mois",
-      "startDate": "2026",
-      "link": "https://jobs.ubs.com"
-    },
-    {
-      "company": "CA Indosuez Wealth Management",
-      "title": "Analyste & Coordinateur IT – Domaine Crédit & Risque",
-      "domain": "Analytics",
-      "location": "Genève",
-      "duration": "6 mois",
-      "startDate": "Variable",
-      "link": "https://www.ca-indosuez.com/careers"
-    },
-    {
-      "company": "Partners Group",
-      "title": "Investment Analyst Programme",
-      "domain": "Finance",
-      "location": "Zug",
-      "duration": "12 mois",
-      "startDate": "Variable",
-      "link": "https://www.partnersgroup.com/careers"
+      &quot;company&quot;: &quot;Bank Lombard Odier &amp; Co&quot;,
+      &quot;title&quot;: &quot;Internship - Next-Gen Identity Matching using Vector Search&quot;,
+      &quot;domain&quot;: &quot;Finance&quot;,
+      &quot;location&quot;: &quot;Genf, SchweizFestanstellung&quot;,
+      &quot;duration&quot;: &quot;6 mois&quot;,
+      &quot;startDate&quot;: &quot;Variable&quot;,
+      &quot;link&quot;: &quot;https://www.efinancialcareers.ch/jobs-Switzerland-Geneva-Internship_-_Next-Gen_Identity_Matching_using_Vector_Search.id23314262&quot;
     }
   ]
-}
+}</div>
+      
+
+      <div id="id_ide_console">
+        
+          <div id="id_ide_console_pane_buttons">
+            <center>
+              
+                <p>This is not a Python file, you can't run it here.</p>
+              
+            </center>
+          </div>
+          <iframe style="display: none" id="id_console" name="console" class="soft_keyboard_sensitive">
+          </iframe>
+          <div style="display: none;" class="console_limit_reached">
+            <div class="container">
+    <div class="row">
+        <div class="col-md-5 col-md-offset-3 well">
+            <h1>Console limit reached :-/</h1>
+
+            <p>
+            With your current PythonAnywhere account you can have up to
+            999 consoles.  You can
+            have more if you
+            <a href="/user/pigueller/account/">upgrade your account</a>!
+
+            <p>
+            Alternatively, if you don't feel like paying us more money, you
+            can <a href="/user/pigueller/consoles/">kill some consoles on your Consoles page</a>.
+        </div>
+    </div>
+</div>
+
+
+          </div>
+        
+      </div>
+
+    </div>
+
+    <div id="id_go_to_line_dialog" class="pa_hidden">
+      <p class="form-inline">Line number: <input id="id_go_to_line_dialog_input" /></p>
+      <div class="dialog_buttons">
+        <button class="btn btn-default" id="id_go_to_line_dialog_ok_button">Go</button>
+        <button class="btn btn-default" id="id_go_to_line_dialog_close_button">Close</button>
+      </div>
+    </div>
+
+    <div id="id_file_changed_on_disk" class="pa_hidden">
+      <p>Are you sure you want to save it?  Alternatively, you could re-open it in a new tab to check differences</p>
+      <div class="dialog_buttons">
+        <button id="id_force_save" class="btn btn-danger">Force Save</button>
+        <button id="id_cancel_save" class="btn btn-default">Cancel</button>
+      </div>
+    </div>
+
+    <div id="id_save_as_dialog" class="pa_hidden">
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="id_save_as_path">Please enter a path:</label>
+          <input id="id_save_as_path" class="form-control" style="width: 100%;" />
+        </div>
+        <img id="id_save_as_spinner" class="spinner pa_hidden" src="/static/anywhere/images/spinner-small.gif" />
+        <p>
+          <span id="id_save_as_error" class="error_message"></span>
+        </p>
+        <div class="dialog_buttons">
+          <button id="id_save_as_ok" type="submit" class="btn btn-primary">Save</button>
+          <button id="id_save_as_cancel" type="button" class="btn btn-default">Cancel</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="modal fade" id="id_file_sharing_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">File Sharing options</h4>
+          </div>
+          <div class="modal-body">
+            <div id="id_file_sharing_options"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+        
+      </div>
+
+        
+
+
+        
+
+<div id="id_feedback_dialog" title="Contact Support"
+    style="display:none">
+    <div id="id_feedback_dialog_blurb_big" class="dialog_blurb_big">
+        
+        The PythonAnywhere Team will respond within one working day.
+        
+    </div>
+    <div id="id_feedback_dialog_blurb_small">
+        <!-- CTA disclaimer section -->
+        
+
+        To help us assist you as efficiently as possible, please include:
+        <ol>
+            <li>What you were trying to do.</li>
+            <li>What you expected to happen.</li>
+            <li>What actually happened including any error messages or screenshots.</li>
+            <li>Steps to reproduce the issue.</li>
+        </ol>
+    </div>
+
+    <textarea id="id_feedback_dialog_text" rows="6"></textarea>
+    <input id="id_feedback_dialog_email_address" type="text"
+        placeholder="Email address (optional - only necessary if you would like us to contact you)" />
+
+    <div id="id_feedback_dialog_error" style="display: none">
+        Sorry, there was a problem connecting to the server. Please try again in a few moments.
+    </div>
+    <div id="id_feedback_dialog_rate_limit_error" style="display: none">
+        
+        Sorry, you have reached the sending limit for Support requests. Please try again in a few moments.
+        
+    </div>
+    <div id="id_feedback_dialog_success" style="display: none">
+        
+        Thank you for contacting Support. We will respond as soon as possible, normally within one working day.
+        
+    </div>
+
+    <div class="dialog_buttons">
+        <img id="id_feedback_dialog_spinner" src="/static/anywhere/images/spinner-small.gif" />
+        <button class="btn btn-primary" id="id_feedback_dialog_ok_button">OK</button>
+        <button class="btn btn-default" id="id_feedback_dialog_cancel_button">Cancel</button>
+    </div>
+
+    <div id="id_feedback_dialog_only_close_button" style="display: none">
+        <button class="btn btn-primary" id="id_feedback_dialog_close_button">Close</button>
+    </div>
+</div>
+
+        
+        <!-- preload font awesome fonts to avoid glitch when switching icons -->
+        <div style="width: 0; height: 0; overflow: hidden"><i class="fa fa-square-o fa-3x" ></i></div>
+    </body>
+</html>
